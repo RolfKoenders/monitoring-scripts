@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Description: Get amount of connected players to the minecraft server and write to InfluxDB.
+# Description: Get number of connected players to the minecraft server and write to InfluxDB.
 # Author: Rolf Koenders
 
 # Sleep time (in seconds)
