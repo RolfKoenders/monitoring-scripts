@@ -1,4 +1,4 @@
-# PiHole monitor
+# Pi-Hole monitor
 
 > Similair to what [@sc01](https://github.com/sco01/piholestatus) does but rewritten in Python and with Docker image. 
 
