@@ -23,6 +23,3 @@ Run it:
 ```bash
 $ docker run -d pihole_monitor
 ```
-
-### Thanks
-- @sc01 for the idea
