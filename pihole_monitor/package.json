@@ -1,0 +1,12 @@
+{
+  "name": "pihole_monitor",
+  "version": "1.0.0",
+  "description": "script which pushes the pihole api stats to influxdb",
+  "main": "pihole.js",
+  "author": "Rolf Koenders <@rolfkoenders>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "influx": "^5.0.0-alpha.4"
+  }
+}

@@ -3,3 +3,4 @@ Some scripts and stuff to get some data to InfluxDB in order to show it nicely w
 
 ## Available scripts
 - [Minecraft player count](http://www.github.com/RolfKoenders/monitoring-scripts/tree/master/minecraft_player_count)
+- [Pi-Hole](http://www.github.com/RolfKoenders/monitoring-scripts/tree/master/pihole_monitor)
