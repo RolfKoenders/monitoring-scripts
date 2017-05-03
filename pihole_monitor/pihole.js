@@ -66,10 +66,10 @@ setInterval(() => {
 							host: 'pihole'
 						},
 						fields: {
-							domains_blocked: parseInt(piholeData.domains_being_blocked.replace(',','')),
-							dns_queries_today: parseInt(piholeData.dns_queries_today.replace(',','')),
+							domains_blocked: parseInt(piholeData.domains_being_blocked),
+							dns_queries_today: parseInt(piholeData.dns_queries_today),
 							ads_percentage_today: parseFloat(piholeData.ads_percentage_today),
-							ads_blocked_today: parseInt(piholeData.ads_blocked_today.replace(',',''))
+							ads_blocked_today: parseInt(piholeData.ads_blocked_today)
 						}
 					}
 				]).then(() => {
