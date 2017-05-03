@@ -1,4 +1,6 @@
-# PiHole monitor
+# Pi-Hole monitor
+
+> Similair to what [@sc01](https://github.com/sco01/piholestatus) does but rewritten in node.js and with Docker image. 
 
 Script which makes an HTTP request to the PiHole API to retrieve the data, followed by pushing it to influxdb. You want this data in influxdb in order to make some nice graphs in for example your grafana dashboard.
 
@@ -12,6 +14,7 @@ PIHOLE_HOST=pihole.lab.local INFLUX_HOST=monitoring.lab.local INFLUX_DATABASE=pi
 ## Docker
 There is a `Dockerfile` included to build a Docker image:
 
+Build it:
 ```bash
 $ docker build -t pihole_monitor .
 ```
